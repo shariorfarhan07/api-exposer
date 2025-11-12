@@ -1,0 +1,256 @@
+INFO:     Will watch for changes in these directories: ['/home/farhan.exabyting_bKash.com/Music/API Exposer']
+INFO:     Uvicorn running on http://127.0.0.1:8002 (Press CTRL+C to quit)
+INFO:     Started reloader process [798539] using StatReload
+INFO:     Started server process [798559]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Loaded 1000 products from db.json
+INFO:     127.0.0.1:55222 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43592 - "GET /products?category=Eye%20Shadow%20Stick HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43592 - "GET /products?category=Eye HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [798559]
+INFO:     Started server process [810579]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [810579]
+Loaded 1000 products from db.json
+INFO:     Started server process [810696]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [810696]
+Loaded 1000 products from db.json
+INFO:     Started server process [810885]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [810885]
+Loaded 1000 products from db.json
+Loaded 0 orders from orders.json
+INFO:     Started server process [811007]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [811007]
+Loaded 1000 products from db.json
+Loaded 0 orders from orders.json
+INFO:     Started server process [811977]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [811977]
+Loaded 1000 products from db.json
+Loaded 0 orders from orders.json
+INFO:     Started server process [812127]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Loaded 1000 products from db.json
+Loaded 0 orders from orders.json
+INFO:     127.0.0.1:35428 - "POST /orders HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/farhan.exabyting_bKash.com/Music/API Exposer/main.py", line 295, in create_order
+    _save_orders()
+  File "/home/farhan.exabyting_bKash.com/Music/API Exposer/main.py", line 54, in _save_orders
+    json.dump({"orders": ORDERS}, f, ensure_ascii=False, indent=2)
+  File "/usr/lib/python3.10/json/__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "/usr/lib/python3.10/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/usr/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [812127]
+INFO:     Started server process [813507]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Loaded 1000 products from db.json
+Loaded 0 orders from orders.json
+INFO:     127.0.0.1:43266 - "POST /orders HTTP/1.1" 201 Created
+INFO:     127.0.0.1:43272 - "GET /users/user-123/orders HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42524 - "GET /orders HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [813507]
+INFO:     Started server process [815280]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Loaded 1000 products from db.json
+Loaded 1 orders from orders.json
+INFO:     127.0.0.1:45902 - "GET /products?search=mascara&limit=2 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/farhan.exabyting_bKash.com/Music/API Exposer/main.py", line 160, in get_products
+    filtered_data = [
+  File "/home/farhan.exabyting_bKash.com/Music/API Exposer/main.py", line 164, in <listcomp>
+    or search_lower in item.get("description", "").lower()
+AttributeError: 'NoneType' object has no attribute 'lower'
+INFO:     127.0.0.1:49004 - "GET /products?search=mascara&limit=2 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+  File "/home/farhan.exabyting_bKash.com/.local/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/home/farhan.exabyting_bKash.com/Music/API Exposer/main.py", line 160, in get_products
+    filtered_data = [
+  File "/home/farhan.exabyting_bKash.com/Music/API Exposer/main.py", line 164, in <listcomp>
+    or search_lower in item.get("description", "").lower()
+AttributeError: 'NoneType' object has no attribute 'lower'
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [815280]
+INFO:     Started server process [816557]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Loaded 1000 products from db.json
+Loaded 1 orders from orders.json
+INFO:     127.0.0.1:38976 - "GET /products?search=mascara&limit=2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44794 - "GET /products?limit=2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44840 - "GET /products/categories HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [816557]
+INFO:     Started server process [817116]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [817116]
+Loaded 1000 products from db.json
+Loaded 1 orders from orders.json
+INFO:     Started server process [817674]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "userId": "user-123",
+      "items": [
+        {
+          "productId": "173530386",
+          "quantity": 2,
+          "price": 22.9
+        }
+      ],
+      "totalAmount": 45.8,
+      "status": "pending",
+      "notes": null,
+      "metadata": {
+        "paymentMethod": "bkash"
+      },
+      "id": "c29e962f-f3cd-4610-a1ff-b97270da082c",
+      "createdAt": "2025-11-12T07:54:48.677223"
+    }
+  ]
+}
